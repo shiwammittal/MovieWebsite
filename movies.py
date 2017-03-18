@@ -1,3 +1,5 @@
+import webbrowser
+
 class Movie ():
     def __init__(self, movie_title, movie_summary, movie_poster_image, movie_trailer):
         self.movie_title = movie_title
@@ -5,3 +7,5 @@ class Movie ():
         self.movie_poster_image = movie_poster_image
         self.movie_trailer = movie_trailer
         
+    def play_movie_trailer(self):
+        webbrowser.open(self.movie_trailer)
