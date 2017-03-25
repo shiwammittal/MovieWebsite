@@ -9,4 +9,5 @@ guardians_of_galaxy = movies.Movie("Guardians of the Galaxy Vol. 2","Set two-to-
 
 list_of_movies = [baahubali,transformers,wonder_woman,fast_and_furious,guardians_of_galaxy]
 fresh_tomatoes.open_movies_page(list_of_movies)
+print(movies.Movie.__doc__)
 print(movies.Movie.VALID_RATINGS)
